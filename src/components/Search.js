@@ -12,7 +12,7 @@ export default class Search extends Component {
   }
 
   onSearchType(text){
-    this.props.callback(text.length >= this.props.minChars ? text : "");
+    this.props.callback(text.length >= this.props.minChars ? text : null);
   }
 
   render() {
