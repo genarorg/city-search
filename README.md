@@ -1,10 +1,10 @@
 # city-search
 
-This is a demo application made in React.js. This build configuration is derived from [https://github.com/genarorg/webpack-react-redux](https://github.com/genarorg/webpack-react-redux).
+Check out the **[Demo](https://genarorg.github.io/city-search/)**
 
 Search for your favorite city. Just type in the name in the search box and you will get results from our extensive database of awesome cities!
 
-Check out the **[Demo](https://genarorg.github.io/city-search/)**
+This is a demo application made in React.js. This build configuration is derived from [https://github.com/genarorg/webpack-react-redux](https://github.com/genarorg/webpack-react-redux).
 
 Download the built application here: [city-search.v1.0.0](https://github.com/genarorg/city-search/releases/tag/v1.0.0)
 
