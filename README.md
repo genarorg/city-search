@@ -1,10 +1,12 @@
 # city-search
 
-This build configuration is derived from [https://github.com/genarorg/webpack-react-redux](https://github.com/genarorg/webpack-react-redux)
+This is a demo application made in React.js. This build configuration is derived from [https://github.com/genarorg/webpack-react-redux](https://github.com/genarorg/webpack-react-redux).
 
 Search for your favorite city. Just type in the name in the search box and you will get results from our extensive database of awesome cities!
 
 Check out the **[Demo](https://genarorg.github.io/city-search/)**
+
+Download the built application here: [city-search.v1.0.0](https://github.com/genarorg/city-search/releases/tag/v1.0.0)
 
 To run this application locally, install dependencies first with:
 
@@ -29,6 +31,7 @@ Child html-webpack-plugin for "index.html":
 
 webpack: bundle is now VALID.
 ```
+note: due to a config issue, webpack-dev-server wont load the background image, but its fine in the build.
 
 Or if you want to build it, just run `npm run build` and your files will be in the `/build` folder:
 
