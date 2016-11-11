@@ -1,3 +1,74 @@
+@import 'normalize.css';
+
+$defaul-color: #dcdcdc;
+$active-color: #a7a7a7;
+
 body {
+	font-size: 16px;
+	font-family: "Helvetica", Arial;
+	background: #fbfbfb url('images/city.png') no-repeat bottom center fixed;
+	background-size: 500px;
+	.app-container{
+		padding: 50px 20%;
+		width: 100%;
+		text-align: center;
+
+		header{
+			display: block; 
+			h1{
+				font-size: 1.5em;
+			}
+		}
+
+		.app-search{
+		    max-width: 500px;
+		    margin: 0 auto;
+
+			input{
+				text-align: left;
+				padding: 15px;
+				width: 100%;
+				border-radius: 2px;
+				-moz-border-radius: 2px;
+				-webkit-border-radius: 2px;
+				border: 1px solid $defaul-color;
+				&:focus{
+					outline: 0;
+					border-color: $active-color;
+				}
+			}
+		}
+
+		.app-results {
+			max-width: 500px;
+		    margin: 0 auto;
+		    text-transform: capitalize;
+			padding-top: 10px;
+			ul.result-list{
+				background: white;
+				border: 1px solid $active-color;
+				padding: 0px;
+				text-align: left;
+			}
+			li.result-item{
+				list-style: none;
+				border-bottom: 1px solid $defaul-color;
+				padding: 10px;
+				&:last-child{
+					border-bottom: 0;
+				}
+			}
+
+		}
+	}
+
 	
+
+	@media(max-width: 420px){
+		background-size: 100%;
+		.app-container{ padding: 10px };
+		&.focused{
+			header{ display: none; }
+		}
+	}
 }

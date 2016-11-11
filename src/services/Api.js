@@ -12,7 +12,7 @@ export default (function Api() {
   const search = function(term) {
     // Get an array of results.
     if (term) {
-      return _getCities().filter((city) => city.indexOf(term) != -1);
+      return _getCities().filter((city) => city.indexOf(term.toLowerCase()) != -1);
     } else {
       return null;
     }

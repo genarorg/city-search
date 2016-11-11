@@ -8,7 +8,8 @@ const pkg = require('./package.json');
 const PATHS = {
   app: path.join(__dirname, 'src'),
   style: path.join(__dirname, 'src', 'style.scss'),
-  build: path.join(__dirname, 'build')
+  build: path.join(__dirname, 'build'),
+  images: path.join(__dirname, 'images')
 };
 
 const common = {
