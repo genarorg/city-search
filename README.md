@@ -6,7 +6,7 @@ Search for your favorite city. Just type in the name in the search box and you w
 
 Check out the **[Demo](https://genarorg.github.io/city-search/)**
 
-Download the built application here: [https://github.com/genarorg/city-search/releases/tag/v1.0.0](city-search.v1.0.0)
+Download the built application here: [city-search.v1.0.0](https://github.com/genarorg/city-search/releases/tag/v1.0.0)
 
 To run this application locally, install dependencies first with:
 
