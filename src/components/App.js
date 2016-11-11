@@ -44,7 +44,7 @@ export default class App extends Component {
         <header>
           <h1>City Search!</h1>
         </header>
-        <Search  callback={this.onSearch.bind(this)} autoFocus={false} minChars={3}/>
+        <Search  callback={this.onSearch.bind(this)} autoFocus={true} minChars={3}/>
         <Results results={this.state.results} />
       </div>
     );
