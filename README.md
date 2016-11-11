@@ -5,6 +5,7 @@ This build configuration is derived from [https://github.com/genarorg/webpack-re
 Search for your favorite city. Just type in the name in the search box and you will get results from our extensive database of awesome cities!
 
 Check out the **[Demo](https://genarorg.github.io/city-search/)**
+Download the built application here: [https://github.com/genarorg/city-search/releases/tag/v1.0.0](city-search.v1.0.0)
 
 To run this application locally, install dependencies first with:
 
