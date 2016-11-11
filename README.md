@@ -29,6 +29,7 @@ Child html-webpack-plugin for "index.html":
 
 webpack: bundle is now VALID.
 ```
+note: due to a config issue, webpack-dev-server wont load the background image, but its fine in the build.
 
 Or if you want to build it, just run `npm run build` and your files will be in the `/build` folder:
 
