@@ -1,6 +1,6 @@
 # city-search
 
-This build configuration is derived from [https://github.com/genarorg/webpack-react-redux](https://github.com/genarorg/webpack-react-redux)
+This is a demo application made in React.js. This build configuration is derived from [https://github.com/genarorg/webpack-react-redux](https://github.com/genarorg/webpack-react-redux).
 
 Search for your favorite city. Just type in the name in the search box and you will get results from our extensive database of awesome cities!
 
